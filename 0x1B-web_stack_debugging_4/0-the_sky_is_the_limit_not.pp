@@ -1,6 +1,6 @@
-# This manuscript increases the amount of traffic an Nginx server can handle
+# This manuscript increases the amount traffic an Nginx server can handle
 
-# Increase the ULIMIT of the default file
+# Increase the ULIMIT of  default file
 file { 'fix-for-nginx':
   ensure  => 'file',
   path    => '/etc/default/nginx',
